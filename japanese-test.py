@@ -1,13 +1,14 @@
-import tkinter as tk
+import random
+import sys
 
-master = tk.Tk()
-tk.Label(master, text="First Name").grid(row=0)
-tk.Label(master, text="Last Name").grid(row=1)
-
-e1 = tk.Entry(master)
-e2 = tk.Entry(master)
-
-e1.grid(row=0, column=1)
-e2.grid(row=1, column=1)
-
-master.mainloop()
+unidaduno = {'わたし' : 'yo', 'わたしたち' : 'nosotros'}
+keys = list(unidaduno.keys())
+random.shuffle(keys)
+x = True
+for x in keys:
+    print("¿Que significa: " + x + "?")
+    res = input()
+    if res == unidaduno[x]:
+        print("Correcto!")
+    else:
+        print("Incorrecto, la respuesta correcta era: " + unidaduno[x])
