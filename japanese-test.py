@@ -10,7 +10,7 @@ listaunidad3 = {'ここ'　: 'aqui', 'そこ' : 'ahi', 'あそこ'　: 'alla', '
                 'きょうしつ'　: 'aula', 'しょくどう'　: 'comedor', 'じむしょ' : 'oficina', 'かいぎしつ'　: 'sala de reuniones',
                 'うけつけ'　: 'recepcion', 'ロビー'　: 'lobby', 'へや'　: 'habitacion', 'トイレ'　: 'baño', 'かいだん'　: 'escaleras',
                 'エレベーター'　: 'ascensor', 'エスカレーター'　: 'escalera mecanica', 'くに'　: 'pais', 'かいしゃ'　: 'empresa',
-                'うち' : 'casa', 'でんわ'　: 'telefono', 'くつ' : 'zapatos', 'ネクタイ'　: 'corbata', 'ワイン'　: 'vino', 'たばこ'　: 'cigarrillos', 'うりば'　: 'secciom' #hoja 1 unidad 3 termina aca
+                'うち' : 'casa', 'でんわ'　: 'telefono', 'くつ' : 'zapatos', 'ネクタイ'　: 'corbata', 'ワイン'　: 'vino', 'たばこ'　: 'cigarrillos', 'うりば'　: 'seccion' #hoja 1 unidad 3 termina aca
 
 def ejercicio(uniraw):
     unidad = eval("listaunidad" + uniraw)
@@ -38,5 +38,5 @@ def inicio():
         print("Por favor ingresar el número de unidad en decimal: (1, 2, 3, etc)")
         inicio()
 
-inicio()
+inicio() 
 
