@@ -13,9 +13,17 @@ def unidaduno():
         else:
             print("Incorrecto, la respuesta correcta era: " + listaunidaduno[x])
 
-print("Elegí un número de unidad para practicar")
-uni = int(input())
-if uni == 1:
-    unidaduno()
-else:
-    print("la unidad todavía no está programada!")
+def inicio():
+    print("Elegí un número de unidad para practicar")
+    uniraw = input()
+    if uniraw.isdecimal():
+        uni = int(uniraw)
+        if uni == 1:
+            unidaduno()
+        else:
+            print("la unidad todavía no está programada!")
+    else:
+        print("Por favor ingresar el número de unidad en decimal: (1, 2, 3, etc)")
+        inicio()
+
+inicio()
