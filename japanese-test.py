@@ -2,8 +2,15 @@ import random
 import sys
 
 listaunidad1 = {'わたし' : 'yo', 'わたしたち' : 'nosotros'}
+
 listaunidad2 = {'これ' : 'esto', 'それ' : 'ese', 'あれ' : 'aquello'}
 
+listaunidad3 = {'ここ'　: 'aqui', 'そこ' : 'ahi', 'あそこ'　: 'alla', 'どこ': 'donde', 'どちら'　: 'donde',
+                'こちら'　: 'aqui', 'そちら'　: 'ahi', 'あちら' : 'alla', 'どちら'　: 'donde',
+                'きょうしつ'　: 'aula', 'しょくどう'　: 'comedor', 'じむしょ' : 'oficina', 'かいぎしつ'　: 'sala de reuniones',
+                'うけつけ'　: 'recepcion', 'ロビー'　: 'lobby', 'へや'　: 'habitacion', 'トイレ'　: 'baño', 'かいだん'　: 'escaleras',
+                'エレベーター'　: 'ascensor', 'エスカレーター'　: 'escalera mecanica', 'くに'　: 'pais', 'かいしゃ'　: 'empresa',
+                'うち' : 'casa', 'でんわ'　: 'telefono', 'くつ' : 'zapatos', 'ネクタイ'　: 'corbata', 'ワイン'　: 'vino', 'たばこ'　: 'cigarrillos', 'うりば'　: 'secciom' #hoja 1 unidad 3 termina aca
 
 def ejercicio(uniraw):
     unidad = eval("listaunidad" + uniraw)
