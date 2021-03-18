@@ -1,5 +1,5 @@
 # japanese-vocabulary-practice
-Minna no Nihongo vocabulary practice
+Practicas de vocabulario Japones (Minna No Nihongo)
 
 ## Como correrlo en Windows:
 
