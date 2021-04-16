@@ -1,7 +1,11 @@
 import random
 import sys
 
-listaunidad1 = {'わたし' : 'yo', 'わたしたち' : 'nosotros'}
+listaunidad1 = {'わたし' : 'yo', 'わたしたち' : 'nosotros', 'あなた' : 'usted', 'あのひと/あのかた' : 'aquella persona', 'みなさん' : 'señoras y señores',
+                'せんせい'　: 'profesor', 'きょうし'　: 'profesor', 'がくせい' : 'estudiante', 'かいしゃいん'　: 'empleado de empresa', 'しゃいん'　: 'empleado',
+                'ぎんこういん'　: 'empleado de banco', 'いしゃ' : 'medico', 'けんきゅうしゃ' : 'investigador', 'インジニア' : 'ingeniero', 'だいがく' : 'universidad',
+                'びょういん' : 'hospital', 'でんき' : 'electricidad', 'だれ' : 'quien', '-さい' : 'años de edad', 'なんさい' : 'cuantos años', 'はい' : 'si',
+                'いいえ' : 'no', 'しつれいですが' : 'disculpe pero', 'あなまえは?' : 'cual es su nombre?', 'はじめまして' : 'mucho gusto', }
 listaunidad2 = {'これ' : 'esto', 'それ' : 'ese', 'あれ' : 'aquello'}
 
 
